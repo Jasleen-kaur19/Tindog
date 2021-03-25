@@ -1,0 +1,134 @@
+#title{
+background-color:#e9896a;
+color:#fff;
+}
+body{
+  font-family:'Montserrat';
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  line-height:1.3;
+}
+h2{
+  font-family:"Montserrat-Bold";
+  font-size:3rem;
+  line-height: 1.5;
+}
+p{
+font-family:"Montserrat-thin";
+color:#8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/*navigation bar*/
+.navbar{
+  padding:0 0 4.5rem 0;
+  }
+.navbar-brand{
+  font-family: 'ubuntu';
+font-size:2.5rem;
+font-weight: bold;
+padding:4.5rem 0;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:'Montserrat-light';
+}
+/*download button*/
+.download-button{
+  margin:5% 5% 5% 0;
+}
+/*title image*/
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+/*features selection*/
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+.icon{
+  color:#e9896a;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#91091e;
+}
+/*testimonial section*/
+#testimonials {
+  text-align: center;
+  background-color: #e9896a;
+  color:#fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #e9896a;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/*pricing sectio*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  color:#fff;
+  background-color: #e9896a;
+  padding:7% 5%;
+}
+.cta-heading{
+  font-family: 'Montserrat',sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+}
+#footer{
+  margin-top:100px;
+  text-align: center;
+  background-color: #fff;
+}
+.social-icon{
+  margin:20px 10px;
+}
